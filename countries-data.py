@@ -2620,7 +2620,6 @@ countries = [
     }
 ]
 
-
 def most_spoken_languages(db, target):
     tally = Counter()
 
@@ -2634,3 +2633,5 @@ def most_spoken_languages(db, target):
         return [pair[0] for pair in top_10]
     return None
 print(most_spoken_languages(countries, "languages"))
+
+
